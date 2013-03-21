@@ -6,6 +6,9 @@ $(document).ready(function(){
             data: { email: email },
             type: "POST",
             dataType: "json",
+            beforeSend: function() {
+                $('#mailing button[type=submit]').attr('disabled', 'disabled');
+            },
             success: function(data, textStatus, XMLHttpRequest) {
                 $('#mailing').html('<p>Thanks for your interest. We will inform you about details soon.</p>');
             },
