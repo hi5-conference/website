@@ -1,0 +1,5 @@
+_site/
+api/app.db
+api/vendor/
+api/composer.lock
+api/composer.phar
