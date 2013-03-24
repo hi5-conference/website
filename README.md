@@ -7,6 +7,7 @@ Bulding
 -------
 Website uses [Jekyll](https://github.com/mojombo/jekyll) for generating structure. You can install it simply by using `sudo apt-get install jekyll`
 For development use `jekyll --server` into a project main directory to launch simple HTTP server.
+To make SVG files being sent with a proper content type you also have to install WEBrick gem by executing `sudo gem install webrick`
 
 Please do NOT commit resulting documents struture form `_site` directory.
 
