@@ -8,7 +8,7 @@ Bulding
 Website uses [Jekyll](https://github.com/mojombo/jekyll) for generating structure. You can install it simply by using `sudo apt-get install jekyll`
 For development use `jekyll --server` into a project main directory to launch simple HTTP server.
 
-Please do NOT resulting documents struture form `_site` directory.
+Please do NOT commit resulting documents struture form `_site` directory.
 
 
 Things to do
