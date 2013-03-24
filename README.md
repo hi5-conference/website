@@ -9,7 +9,7 @@ Website uses [Jekyll](https://github.com/mojombo/jekyll) for generating structur
 For development use `jekyll --server` into a project main directory to launch simple HTTP server.
 To make SVG files being sent with a proper content type you also have to install WEBrick gem by executing `sudo gem install webrick`
 
-Please do NOT commit resulting documents struture form `_site` directory.
+Please do NOT commit resulting documents struture from `_site` directory.
 
 
 Things to do
